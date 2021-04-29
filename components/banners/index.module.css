@@ -1,0 +1,211 @@
+@charset "UTF-8";
+.main-section {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+  border-bottom: 1px solid #fff;
+}
+
+.main-section::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+
+.main-section button {
+  padding: 0;
+  font-family: inherit;
+  letter-spacing: -0.4px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-section .blind {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+.main-section .thumb {
+  line-height: 0;
+  text-align: center;
+}
+
+.main-section .thumb img {
+  max-width: 100%;
+}
+
+.main-section .cnt-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  text-decoration: none;
+  font-family: inherit;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .cnt-card.banner-event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+  padding: 15px 20px 30px;
+}
+
+.main-section .cnt-card.banner-event .txt-area .txt-notice {
+  font-size: 13px;
+  color: #222;
+}
+
+.main-section .cnt-card.banner-event .txt-area .txt-notice strong {
+  font-weight: 400;
+}
+
+.main-section .cnt-card.banner-event .txt-area .info-message {
+  line-height: 1.25;
+  margin: 8px 0 61px;
+  font-size: 20px;
+  color: #222;
+}
+
+.main-section .cnt-card.banner-event .txt-area .btn-underline {
+  display: inline-block;
+  line-height: 1.67;
+  text-decoration: underline;
+  font-size: 12px;
+  color: #767778;
+}
+
+.main-section .cnt-card.banner-event .thumb {
+  width: 170px;
+  height: 170px;
+}
+
+.main-section .swiper-wrap {
+  padding-top: 11px;
+}
+
+.main-section .swiper-wrap .swiper-banner .item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .swiper-wrap .swiper-banner .item .item-inner {
+  position: relative;
+}
+
+.main-section .swiper-wrap .swipe-nav {
+  position: absolute;
+  top: 3px;
+  right: 17px;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  line-height: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #d8d9d9;
+  vertical-align: top;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet + .bullet {
+  margin-left: 4px;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet.active {
+  width: 14px;
+  background: #f76252;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet.active::before {
+  content: '현재페이지 번호';
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  color: transparent;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet.active, .main-section .swiper-wrap .swipe-nav .bullet:focus {
+  outline: none;
+  border: 0;
+}
+
+.main-section .swiper-wrap .swipe-play-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main-section .swiper-wrap .swipe-play-control button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #d8d9d9;
+  background-repeat: no-repeat;
+}
+
+.main-section .swiper-wrap .swipe-play-control button.btn-stop {
+  background-image: url(./images/btn-swiper-stop.svg);
+}
+
+.main-section .swiper-wrap .swipe-play-control button.btn-start {
+  background-image: url(./images/btn-swiper-start.svg);
+}
+
+.main-section .swiper-wrap .swipe-play-control button.current {
+  z-index: 1;
+}
+
+@media all and (max-width: 320px) {
+  .main-section .cnt-card.banner-event .thumb {
+    width: 120px;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

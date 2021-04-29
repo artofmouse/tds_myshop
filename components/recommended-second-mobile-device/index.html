@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My &lt; MAIN</title>
+  <link rel="stylesheet" href="../../../../../../../../../shared/components/my/scss/reset.css">
+  <link rel="stylesheet" href="../../../../../../../../../shared/components/my/js/lib/swiper/swiper.css">
+  <link rel="stylesheet" href="index.module.css">
+  <script src="../../../../../../../../../shared/components/my/js/lib/jquery-1.12.4.js"></script>
+  <script src="../../../../../../../../../shared/components/my/js/lib/swiper/swiper.min.js"></script>
+</head>
+
+<body style="background-color: #f6f8fa;">
+
+  <div class="main-section">
+    <div class="swiper-wrap">
+      <div class="swiper-container swiper-cart">
+        <ul class="swiper-wrapper">
+          <li class="item swiper-slide">
+            <div class="item-inner">
+              <div class="cnt-card">
+                <div class="device-area">
+                  <div class="service-cnt">
+                    <div class="service-name">
+                      갤럭시 탭 S6
+                    </div>
+                    <div class="service-desc">
+                      T Tab 30 
+                      <br />
+                      요금제 기준
+                    </div>
+                    <ul class="device-color-area">
+                      <li class="device-color" style="background-color: #777;">
+                        <span class="blind">옥스포드 그레이</span>
+                      </li>
+                      <li class="device-color" style="background-color: #497590;">
+                        <span class="blind">앙고라블루</span>
+                      </li>
+                    </ul>
+                    <div class="price-area">
+                      <span>월</span>
+                      <strong>120,679원</strong>
+                    </div>
+                  </div>
+                  <div class="thumb">
+                    <img src="./images/img-product@2x.png" alt="갤력시 탭 S4" title="갤력시 탭 S4" aria-hidden="true" />
+                  </div>
+                </div>
+                <div class="btn-area">
+                  <button type="button" class="btn btn-s bg-normal arrow-right-normal" aria-label="자세히 보기">자세히 보기</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item swiper-slide">
+            <div class="item-inner">
+              <div class="cnt-card">
+                <div class="device-area">
+                  <div class="service-cnt">
+                    <div class="service-name">
+                      갤럭시 탭 S6
+                    </div>
+                    <div class="service-desc">
+                      T Tab 30 
+                      <br />
+                      요금제 기준
+                    </div>
+                    <ul class="device-color-area">
+                      <li class="device-color" style="background-color: #777;">
+                        <span class="blind">옥스포드 그레이</span>
+                      </li>
+                      <li class="device-color" style="background-color: #497590;">
+                        <span class="blind">앙고라블루</span>
+                      </li>
+                    </ul>
+                    <div class="price-area">
+                      <span>월</span>
+                      <strong>120,679원</strong>
+                    </div>
+                  </div>
+                  <div class="thumb">
+                    <img src="./images/img-product@2x.png" alt="갤력시 탭 S4" title="갤력시 탭 S4" aria-hidden="true" />
+                  </div>
+                </div>
+                <div class="btn-area">
+                  <button type="button" class="btn btn-s bg-normal arrow-right-normal" aria-label="자세히 보기">자세히 보기</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="swipe-nav" data-swipe-paging>
+        
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // swiper slider
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      // spaceBetween: 20,
+      pagination: {
+        el: '[data-swipe-paging]',
+        type: 'bullets',
+        clickable: true,
+        slidesPerView: 'auto',
+        bulletClass: 'bullet',
+        bulletActiveClass: 'active',
+        renderBullet: function(index, className) {
+          return '<div class="' + className + '"><button>"' + (index + 1) + '"</button></div>';
+        },
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My &lt; MAIN</title>
+    <link rel="stylesheet" href="../../../../../../../../../shared/components/my/scss/reset.css">
+    <link rel="stylesheet" href="../../../../../../../../../shared/components/my/js/lib/swiper/swiper.css">
+    <link rel="stylesheet" href="index.module.css">
+    <script src="../../../../../../../../../shared/components/my/js/lib/jquery-1.12.4.js"></script>
+    <script src="../../../../../../../../../shared/components/my/js/lib/swiper/swiper.min.js"></script>
+</head>
+
+<body style="background-color: #efeff1;">
+
+    <div class="main-section">
+        <div class="swiper-wrap">
+            <div class="swiper-container">
+                <ul class="quick-menu-list swiper-wrapper">
+                    <li class="item swiper-slide item-active">
+                        <button type="button" class="btn current" title="5G휴대폰" aria-label="5G휴대폰">
+                            <i style="background-image: url(./images/icon-tds-category-5g-phone.svg);"></i>
+                            <span>5G휴대폰</span>
+                        </button>
+                    </li>
+                    <li class="item swiper-slide">
+                        <button type="button" class="btn" title="휴대폰" aria-label="휴대폰">
+                            <i style="background-image: url(./images/icon-tds-category-phone.svg);"></i>
+                            <span>휴대폰</span>
+                        </button>
+                    </li>
+                    <li class="item swiper-slide">
+                        <button type="button" class="btn" title="키즈폰" aria-label="키즈폰">
+                            <i style="background-image: url(./images/icon-tds-category-tablet.svg);"></i>
+                            <span>키즈폰</span>
+                        </button>
+                    </li>
+                    <li class="item swiper-slide">
+                        <button type="button" class="btn" title="5G태블릿" aria-label="5G태블릿">
+                            <i style="background-image: url(./images/icon-tds-category-5g-tablet.svg);"></i>
+                            <span>5G태블릿</span>
+                        </button>
+                    </li>
+                    <li class="item swiper-slide">
+                        <button type="button" class="btn" title="휴대용 와이파이" aria-label="휴대용 와이파이">
+                            <i style="background-image: url(./images/icon-tds-category-tablet.svg);"></i>
+                            <span>태블릿</span>
+                        </button>
+                    </li>
+                    <li class="item swiper-slide">
+                        <button type="button" class="btn" title="스마트워치" aria-label="스마트워치">
+                            <i style="background-image: url(./images/icon-tds-category-watch.svg);"></i>
+                            <span>스마트워치</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // swiper slider
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            // loop: true,
+        });
+    </script>
+
+</body>
+
+</html>

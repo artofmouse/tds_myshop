@@ -1,0 +1,82 @@
+.main-section {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+}
+
+.main-section button {
+  letter-spacing: -0.4px;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-section .section-tit {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 13px;
+  z-index: 2;
+}
+
+.main-section .cnt-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+  font-family: inherit;
+  border: 0;
+  border-radius: 12px;
+  -webkit-box-shadow: -4px -6px 10px #fff, 4px 7px 10px #dde0e2, -2px -2px 2px #fff;
+          box-shadow: -4px -6px 10px #fff, 4px 7px 10px #dde0e2, -2px -2px 2px #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main-section .cnt-card.type-arrow {
+  padding-right: 40px;
+  background: url(./images/icon-arrow-right-12px.svg) no-repeat right 20px center;
+}
+
+.main-section .cnt-card .txt-notice {
+  display: block;
+  line-height: 1.43;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+}
+
+.main-section .cnt-card .info-message {
+  display: block;
+  margin-top: 11px;
+  font-size: 13px;
+  color: #767778;
+}
+
+.main-section .cnt-card .info-message .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.43;
+  font-size: 14px;
+}
+
+.main-section .cnt-card .info-message .info + .info {
+  margin-top: 1px;
+}
+
+.main-section .cnt-card .info-message .info em {
+  margin-right: 8px;
+  font-style: normal;
+  color: #767778;
+}
+
+.main-section .cnt-card .info-message .info strong {
+  font-weight: 400;
+  color: #222;
+}
+/*# sourceMappingURL=index.module.css.map */

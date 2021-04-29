@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.main-section {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+  hr {
+    display: block;
+    height: 2px;
+    margin: 20px 0;
+    border-radius: 1px;
+    border: none;
+    box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+  }
+  button {
+    letter-spacing: -0.4px;
+    font-family: inherit;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .txcolor1 {
+    color: #f76252 !important;
+  }
+  .thumb {
+    display: inline-block;
+    line-height: 0;
+    margin: 0 0 0 auto;
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+  .section-tit {
+    position: relative;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    font-size: 13px;
+    z-index: 2;
+  }
+  .section-cnt {
+    .cnt-card {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 24px;
+      border: 0;
+      border-radius: 12px;
+      box-shadow: -4px -6px 10px #fff, 4px 7px 10px #DDE0E2, -2px -2px 2px #fff;
+      box-sizing: border-box;
+      .cnt-area {
+        display: flex;
+        .thumb {
+          width: 60px;
+          height: 60px;
+          margin-right: 1px;
+        }
+        .txt-notice {
+          width: calc(100% - 61px);
+          line-height: 1.38;
+          font-size: 13px;
+          color: #767778;
+          strong {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .btn-area {
+      margin-top: 20px;
+      text-align: center;
+      .btn {
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        &.bg-normal {
+          box-shadow: 0 0 5px 0 #d1d4d6;
+        }
+        &.btn-s {
+          height: 32px;
+          padding: 0 16px;
+          font-size: 12px;
+          border-radius: 16px;
+        }
+        &.arrow-right-normal {
+          padding: 0 26px 0 16px;
+          &::after {
+            content: "";
+            position: absolute;
+            top: calc(50%);
+            left: auto;
+            margin-left: 2px;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            transform: translateY(-50%);
+          }
+          &.btn-s::after {
+            width: 10px;
+            height: 10px;
+            background-image: url(./images/icon-arrow-right-10px.svg);
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My &lt; MAIN</title>
+  <link rel="stylesheet" href="../../../../../../../../../shared/components/my/scss/reset.css">
+  <link rel="stylesheet" href="../../../../../../../../../shared/components/my/js/lib/swiper/swiper.css">
+  <link rel="stylesheet" href="index.module.css">
+  <script src="../../../../../../../../../shared/components/my/js/lib/jquery-1.12.4.js"></script>
+  <script src="../../../../../../../../../shared/components/my/js/lib/swiper/swiper.min.js"></script>
+</head>
+
+<body style="background-color: #f6f8fa;">
+
+  <div class="main-section">
+    <div class="swiper-wrap">
+      <div class="swiper-container swiper-banner">
+        <ul class="swiper-wrapper">
+          <li class="item swiper-slide">
+            <div class="item-inner">
+              <div class="cnt-card banner-event" aria-label="Galaxy Z Flip 사전예약 아담한 크기에 담긴 혁신">
+                <div class="txt-area">
+                  <div class="txt-notice" style="color: #222;">
+                    애플워치 <strong style="color: #f76252;">SERIES 6</strong>
+                  </div>
+                  <div class="info-message" style="color: #222;">
+                    건강의 미래,
+                    <br />
+                    이미 손목위에.
+                  </div>
+                  <button type="button" class="btn-underline" aria-label="사전예약하기">
+                    사전예약하기
+                  </button>
+                </div>
+                <div class="thumb">
+                  <img src="./images/img-banner-apple-watch@2x.png" alt="" title="" aria-hidden="true" />
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item swiper-slide">
+            <div class="item-inner">
+              <div class="cnt-card banner-event" aria-label="Galaxy Z Flip 사전예약 아담한 크기에 담긴 혁신">
+                <div class="txt-area">
+                  <div class="txt-notice" style="color: #222;">
+                    애플워치 <strong style="color: #f76252;">SERIES 6</strong>
+                  </div>
+                  <div class="info-message" style="color: #222;">
+                    건강의 미래,
+                    <br />
+                    이미 손목위에.
+                  </div>
+                  <button type="button" class="btn-underline" aria-label="사전예약하기">
+                    사전예약하기
+                  </button>
+                </div>
+                <div class="thumb">
+                  <img src="./images/img-banner-apple-watch@2x.png" alt="" title="" aria-hidden="true" />
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="swipe-nav" data-swipe-paging>
+        
+      </div>
+      <div class="swipe-play-control">
+        <button type="button" class="btn-start" aria-label="start"><span class="blind">start</span></button>
+        <button type="button" class="btn-stop" aria-label="stop"><span class="blind">stop</span></button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // swiper slider
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 20,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '[data-swipe-paging]',
+        type: 'bullets',
+        clickable: true,
+        slidesPerView: 'auto',
+        bulletClass: 'bullet',
+        bulletActiveClass: 'active',
+        renderBullet: function(index, className) {
+          return '<div class="' + className + '"><button>"' + (index + 1) + '"</button></div>';
+        },
+      }
+    });
+    $(".btn-start").on('click', function(){
+      swiper.autoplay.start();
+      $(this).siblings().toggleClass("current");
+      return false;
+    });
+    $(".btn-stop").on('click', function(){
+      swiper.autoplay.stop();
+      $(this).siblings().toggleClass("current");
+      return false;
+    });
+  </script>
+
+</body>
+</html>

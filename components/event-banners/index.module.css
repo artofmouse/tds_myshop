@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.main-section {
+  position: relative;
+  color: #222;
+}
+
+.main-section button {
+  letter-spacing: -0.4px;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-section .thumb {
+  width: 66px;
+  height: 66px;
+  line-height: 0;
+  text-align: center;
+}
+
+.main-section .thumb img {
+  max-width: 100%;
+}
+
+.main-section .cnt-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  text-decoration: none;
+  font-family: inherit;
+  border: 0;
+  border-radius: 12px;
+  -webkit-box-shadow: -4px -6px 10px #fff, 4px 7px 10px #dde0e2, -2px -2px 2px #fff;
+          box-shadow: -4px -6px 10px #fff, 4px 7px 10px #dde0e2, -2px -2px 2px #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.main-section .cnt-card.banner-event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+  padding: 7px 22px 7px 24px;
+}
+
+.main-section .cnt-card.banner-event .txt-area {
+  display: block;
+  width: calc(100% - 76px);
+}
+
+.main-section .cnt-card.banner-event .txt-area .txt-notice {
+  display: block;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+.main-section .cnt-card.banner-event .txt-area .txt-notice strong {
+  font-weight: 500;
+  color: #9941a7;
+}
+
+.main-section .cnt-card.banner-event .txt-area .info-message {
+  display: block;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #767778;
+}
+
+.main-section .swiper-wrap {
+  position: relative;
+  margin: 0 -10px -20px;
+  padding-top: 16px;
+}
+
+.main-section .swiper-wrap .swiper-banner {
+  margin-top: -20px;
+}
+
+.main-section .swiper-wrap .swiper-banner .item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .swiper-wrap .swiper-banner .item .item-inner {
+  position: relative;
+  padding: 20px 10px;
+}
+
+.main-section .swiper-wrap .swipe-nav {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  line-height: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #d8d9d9;
+  vertical-align: top;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet + .bullet {
+  margin-left: 4px;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet.active {
+  width: 14px;
+  background: #f76252;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet.active::before {
+  content: '현재페이지 번호';
+  display: block;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  color: transparent;
+}
+
+.main-section .swiper-wrap .swipe-nav .bullet.active, .main-section .swiper-wrap .swipe-nav .bullet:focus {
+  outline: none;
+  border: 0;
+}
+/*# sourceMappingURL=index.module.css.map */
