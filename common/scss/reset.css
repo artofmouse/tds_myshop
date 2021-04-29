@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* bold */
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 700;
+  src: local("Spoqa Han Sans Bold"), url("../assets/fonts/SpoqaHanSansNeo-Bold.woff2") format("woff2"), url("../assets/fonts/SpoqaHanSansNeo-Bold.woff") format("woff"), url("../assets/fonts/SpoqaHanSansNeo-Bold.ttf") format("truetype");
+}
+
+/* medium */
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 500;
+  src: local("Spoqa Han Sans Medium"), url("../assets/fonts/SpoqaHanSansNeo-Medium.woff2") format("woff2"), url("../assets/fonts/SpoqaHanSansNeo-Medium.woff") format("woff"), url("../assets/fonts/SpoqaHanSansNeo-Medium.ttf") format("truetype");
+}
+
+/* normal */
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 400;
+  src: local("Spoqa Han Sans Regular"), url("../assets/fonts/SpoqaHanSansNeo-Regular.woff2") format("woff2"), url("../assets/fonts/SpoqaHanSansNeo-Regular.woff") format("woff"), url("../assets/fonts/SpoqaHanSansNeo-Regular.ttf") format("truetype");
+}
+
+/* right */
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 300;
+  src: local("Spoqa Han Sans Light"), url("../assets/fonts/SpoqaHanSansNeo-Light.woff2") format("woff2"), url("../assets/fonts/SpoqaHanSansNeo-Light.woff") format("woff"), url("../assets/fonts/SpoqaHanSansNeo-Light.ttf") format("truetype");
+}
+
+/* rest */
+html, body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, a, button, input, select, textarea, table, th, td, figure, hr, i, b {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "Spoqa Han Sans", "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", sans-serif;
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 100px;
+  height: 100%;
+  line-height: 1.25em;
+  letter-spacing: -0.04px;
+  word-break: keep-all;
+  color: #222;
+}
+
+html {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=reset.css.map */

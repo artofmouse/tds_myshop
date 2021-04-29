@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "font.scss";
+
+/* rest */
+html, body, form, div, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, fieldset, a, button, input, select, textarea, table, th, td, figure, hr, i, b {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-family: "Spoqa Han Sans", "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", sans-serif;
+  font-style: normal;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 100px;
+  height: 100%;
+  line-height: 1.25em;
+  letter-spacing: -0.04px;
+  word-break: keep-all;
+  color: #222;
+}
+
+html {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
