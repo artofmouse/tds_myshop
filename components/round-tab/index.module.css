@@ -23,21 +23,20 @@
   z-index: 2;
 }
 
-.main-section .nav-detail-page ul {
+.main-section .round-tab ul {
   padding: 14px 0 20px;
 }
 
-.main-section .nav-detail-page ul li {
+.main-section .round-tab ul li {
   display: inline-block;
   vertical-align: middle;
 }
 
-.main-section .nav-detail-page ul li.item {
+.main-section .round-tab ul li.item {
   width: auto !important;
-  margin-right: 20px;
 }
 
-.main-section .nav-detail-page ul li.item button {
+.main-section .round-tab ul li.item button {
   padding: 9px 0;
   font-size: 14px;
   font-weight: 300;
@@ -48,7 +47,7 @@
   vertical-align: middle;
 }
 
-.main-section .nav-detail-page ul li.item button.current {
+.main-section .round-tab ul li.item button.current {
   padding: 9px 20px;
   font-size: 13px;
   font-weight: 500;

@@ -23,23 +23,21 @@
   z-index: 2;
 }
 
-.main-section .rect-tab ul li {
+.main-section .filter-result ul li {
   display: inline-block;
   vertical-align: middle;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.main-section .rect-tab ul li.item {
-  width: 76px !important;
+.main-section .filter-result ul li.item {
+  width: auto !important;
 }
 
-.main-section .rect-tab ul li.item button {
-  width: 76px;
+.main-section .filter-result ul li.item button {
+  width: auto;
   height: 40px;
   padding: 9px 7px 9px 8px;
-  border-radius: 4px;
-  border: solid 1px #c7c7c7;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: SpoqaHanSansNeo;
@@ -50,14 +48,10 @@
   color: #666666;
 }
 
-.main-section .rect-tab ul li.item button.current {
-  width: 76px;
-  height: 40px;
-  padding: 9px 8px;
-  border-radius: 4px;
-  border: solid 1px #000000;
-  font-weight: bold;
-  letter-spacing: -0.5px;
-  color: #000000;
+.main-section .filter-result ul li.item button::after {
+  width: 10px;
+  height: 10px;
+  background-image: url("images/btn-del-x@2x.svg");
+  background-size: 10px 10px;
 }
 /*# sourceMappingURL=index.module.css.map */
