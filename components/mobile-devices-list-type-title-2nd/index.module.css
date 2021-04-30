@@ -1,0 +1,151 @@
+.main-section {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+}
+
+.main-section hr {
+  display: block;
+  height: 2px;
+  margin: 20px 0;
+  border-radius: 1px;
+  border: none;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+          box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+}
+
+.main-section button {
+  padding: 0;
+  letter-spacing: -0.4px;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-section .blind {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  color: transparent;
+}
+
+.main-section .btn {
+  display: inline-block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .btn.bg-normal {
+  -webkit-box-shadow: 0 0 5px #d1d4d6;
+          box-shadow: 0 0 5px #d1d4d6;
+}
+
+.main-section .btn.btn-s {
+  height: 32px;
+  padding: 0 16px;
+  font-size: 12px;
+  border-radius: 16px;
+}
+
+.main-section .btn.arrow-right-normal {
+  padding: 0 26px 0 16px;
+}
+
+.main-section .btn.arrow-right-normal::after {
+  content: "";
+  position: absolute;
+  top: calc(50%);
+  left: auto;
+  margin-left: 2px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main-section .btn.arrow-right-normal.btn-s::after {
+  width: 10px;
+  height: 10px;
+  background-image: url(./images/icon-arrow-right-10px.svg);
+}
+
+.main-section .mobile-devices-list-tl {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .mobile-devices-list-tl .list-total-num {
+  width: auto;
+  height: 19px;
+  margin: 10px 150px 10px 0;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.37px;
+  color: #767778;
+}
+
+.main-section .mobile-devices-list-tl .list-sorting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 39px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .mobile-devices-list-tl .list-sorting .list-sorting-sel {
+  width: 90px;
+  height: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0.74;
+  font-family: SpoqaHanSansNeo;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #242424;
+}
+
+.main-section .mobile-devices-list-tl .list-sorting .list-sorting-btn {
+  width: 30px;
+  height: 30px;
+  margin: 0 0 0 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./images/btn-sorting-card@2x.png);
+  background-size: 30px 30px;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=index.module.css.map */

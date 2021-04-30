@@ -1,0 +1,337 @@
+.main-section {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+}
+
+.main-section button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  letter-spacing: -0.4px;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-section .section-tit {
+  position: relative;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 13px;
+  z-index: 2;
+}
+
+.main-section .layer-popup-header {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 20px auto;
+}
+
+.main-section .layer-popup-header h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 40px);
+  height: 34px;
+  margin: 9px 0px 0px 20px;
+  font-family: SpoqaHanSansNeo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.53px;
+  color: #000000;
+}
+
+.main-section .layer-popup-header .layer-popup-btn-close {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  width: 34px;
+  height: 33px;
+  background-image: url(./images/layer-pop-btn-close@2x.png);
+  background-size: 34px 33px;
+  background-repeat: no-repeat;
+}
+
+.main-section .underline-tab {
+  border-bottom: 1px solid #e1e1e1;
+  height: 50px;
+}
+
+.main-section .underline-tab ul li {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .underline-tab ul li:first-child {
+  padding-left: 20px;
+}
+
+.main-section .underline-tab ul li:last-child {
+  padding-right: 20px;
+}
+
+.main-section .underline-tab ul li.item {
+  width: auto !important;
+}
+
+.main-section .underline-tab ul li.item button {
+  width: auto;
+  height: 49px;
+  padding: 13px 2px 17px 2px;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #666666;
+  box-sizing: border-box;
+}
+
+.main-section .underline-tab ul li.item button.current {
+  width: auto;
+  height: 52px;
+  padding: 13px 2px 17px 2px;
+  border-bottom: solid 3px #000000;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .fee-choice {
+  width: calc(100% - 40px);
+  margin: 30px auto;
+  padding-bottom: 106px;
+}
+
+.main-section .fee-choice ul {
+  width: 100%;
+}
+
+.main-section .fee-choice ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 106px;
+  padding: 17px 13px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 4px;
+  border: solid 1px #c7c7c7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.main-section .fee-choice ul li .fee-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 19px;
+}
+
+.main-section .fee-choice ul li .fee-name span {
+  height: 19px;
+  margin: 0 10px 0px 0;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #202020;
+}
+
+.main-section .fee-choice ul li .fee-name span.status-box {
+  height: 13px;
+  font-family: NotoSansCJKkr;
+  font-size: 9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-align: center;
+  height: 15px;
+  margin: 0px 0px 9px 0px;
+  padding: 1px 9px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .fee-choice ul li .fee-name span.status-box.orange-color {
+  color: #fa8856;
+  border: solid 1px #fa8856;
+}
+
+.main-section .fee-choice ul li .fee-name span.status-box.purple-color {
+  color: #897fd7;
+  border: solid 1px #897fd7;
+}
+
+.main-section .fee-choice ul li .fee-name span.status-box.green-color {
+  color: #5bc09f;
+  border: solid 1px #5bc09f;
+}
+
+.main-section .fee-choice ul li .fee-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 19px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .fee-choice ul li .fee-info .status-size {
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: SpoqaHanSansNeo;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.56px;
+  color: #000000;
+}
+
+.main-section .fee-choice ul li .fee-info .status-fee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .fee-choice ul li .fee-info .status-fee span {
+  height: 22px;
+  margin: 0px 2px 0px 0px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: SpoqaHanSansNeo;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.19px;
+  text-align: right;
+  color: #000000;
+}
+
+.main-section .fee-choice ul li .fee-info .status-fee span.status-unit {
+  height: 16px;
+  margin: 0px 0px 0px 2px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: SpoqaHanSansNeo;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  text-align: right;
+  color: #000000;
+}
+
+.main-section .fee-choice ul li .fee-guide {
+  height: 19px;
+  margin: 3px 0 0 0;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #666666;
+}
+
+.main-section .bottom-btn-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 84px;
+  padding: 20px;
+  -webkit-box-shadow: 0 -2px 10px 0 rgba(207, 207, 207, 0.88);
+          box-shadow: 0 -2px 10px 0 rgba(207, 207, 207, 0.88);
+  background-color: #f6f8fa;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .bottom-btn-area .btn-fee-choice {
+  width: calc(100% - 40px);
+  height: 44px;
+  opacity: 0.6;
+  border-radius: 4px;
+  -webkit-box-shadow: -4px -6px 10px 0 rgba(255, 255, 255, 0.83), 4px 7px 10px 0 #d3d3d3, -1px -1px 1px 0 #ffffff;
+          box-shadow: -4px -6px 10px 0 rgba(255, 255, 255, 0.83), 4px 7px 10px 0 #d3d3d3, -1px -1px 1px 0 #ffffff;
+  background-color: #f76252;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #ffffff;
+}
+/*# sourceMappingURL=index.module.css.map */
