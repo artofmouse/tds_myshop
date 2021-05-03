@@ -1,41 +1,44 @@
 .main-section {
   position: relative;
+  letter-spacing: -0.4px;
   color: #222;
 }
 
 .main-section button {
+  display: block;
+  width: 100%;
   padding: 0;
+  letter-spacing: -0.4px;
   font-family: inherit;
   border: 0;
   background-color: transparent;
   cursor: pointer;
 }
 
-.main-section ul.quick-menu-list {
+.main-section .section-tit {
+  position: relative;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 13px;
+  z-index: 2;
+}
+
+.main-section .top-navi-area ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
 
-.main-section ul.quick-menu-list li {
-  display: inline-block;
-  width: 60px;
-  height: 80px;
-  padding: 8px 0 6px;
-  color: #767778;
-  vertical-align: top;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-right: 14px;
+.main-section .top-navi-area ul li.item {
+  width: 60px !important;
 }
 
-.main-section ul.quick-menu-list li.item {
-  margin-right: 20px;
-}
-
-.main-section ul.quick-menu-list li.item button {
+.main-section .top-navi-area ul li.item button {
   padding: 9px 0;
   font-size: 14px;
   font-weight: 300;
@@ -46,12 +49,12 @@
   vertical-align: middle;
 }
 
-.main-section ul.quick-menu-list li.item button.current {
+.main-section .top-navi-area ul li.item button.current {
   font-weight: 500;
   color: #222;
 }
 
-.main-section ul.quick-menu-list li.item .btn {
+.main-section .top-navi-area ul li.item .btn {
   display: block;
   width: 100%;
   text-align: center;
@@ -59,7 +62,7 @@
   color: inherit;
 }
 
-.main-section ul.quick-menu-list li.item .btn i {
+.main-section .top-navi-area ul li.item .btn i {
   display: block;
   width: 30px;
   height: 30px;
@@ -67,7 +70,7 @@
   background-repeat: no-repeat;
 }
 
-.main-section ul.quick-menu-list li.item .btn i.small_mar {
+.main-section .top-navi-area ul li.item .btn i.small_mar {
   display: block;
   width: 30px;
   height: 30px;
@@ -75,7 +78,7 @@
   background-repeat: no-repeat;
 }
 
-.main-section ul.quick-menu-list li.item .btn span {
+.main-section .top-navi-area ul li.item .btn span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

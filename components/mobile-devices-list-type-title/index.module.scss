@@ -71,7 +71,8 @@
         }
     }
 
-    .mobile-devices-list-tl {
+    .mobile-devices-list-type-title {
+        width:calc(100% - 40px);
         margin: 0 auto;
         display: flex; 
         justify-content: space-between;
@@ -80,7 +81,7 @@
         .list-total-num{
             width:auto;
             height: 19px;
-            margin: 10px 150px 10px 0;
+            margin: 10px 0 10px 0;
             font-family: SpoqaHanSansNeo;
             font-size: 13px;
             font-weight: normal;
@@ -89,29 +90,49 @@
             line-height: normal;
             letter-spacing: -0.37px;
             color: #767778;
-
         }
         .list-sorting{
             display: flex; 
             height:39px;
             align-items: center;
             .list-sorting-sel{
-                width:90px;
+                width:auto;
+                min-width:90px;
                 height:39px;
-                display: flex; 
-                align-items: center;
-                object-fit: contain;
-                opacity: 0.74;
-                font-family: SpoqaHanSansNeo;
-                font-size: 12px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: normal;
-                letter-spacing: -0.3px;
-                color: #242424;
-
-
+                padding: 7px 6px 7px 13px;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: #ffffff;
+                select{
+                    -webkit-appearance:none;
+                    -moz-appearance:none;
+                    -o-appearance:none;
+                    appearance:none;
+                    &::-ms-expand {
+                        display: none;
+                    }
+                    background-image:url(./images/select-bg.png);
+                    background-repeat:no-repeat;
+                    background-position:center right;
+                    background-size: 24px 24px;
+                    vertical-align: middle;
+                    width:auto;
+                    min-width: 43px;
+                    height: 24px;
+                    object-fit: contain;
+                    opacity: 0.74;
+                    font-family: SpoqaHanSansNeo;
+                    font-size: 12px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: -0.3px;
+                    color: #242424;
+                    border:0;
+                    overflow: hidden;
+                    padding-right:24px;
+                }
             }
             .list-sorting-btn{
                 width: 30px;

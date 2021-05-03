@@ -23,11 +23,20 @@
   z-index: 2;
 }
 
-.main-section .rect-tab ul li {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.main-section .rect-tab ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0 20px;
+}
+
+.main-section .rect-tab ul li:last-child {
+  margin-right: 40px;
 }
 
 .main-section .rect-tab ul li.item {

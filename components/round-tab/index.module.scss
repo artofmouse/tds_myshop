@@ -25,15 +25,23 @@
     }
 
     .round-tab {
-        ul {
-            padding: 14px 0 20px;
+        
 
+        ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            padding: 14px 0 20px;
+            margin:0 20px;
             li {
-                display: inline-block;
-                vertical-align: middle;
+                
+                &:last-child{
+                    margin-right:60px;
+                }
 
                 &.item {
                     width: auto !important;
+                    // min-width:70px;
 
                     button {
                         padding: 9px 0;

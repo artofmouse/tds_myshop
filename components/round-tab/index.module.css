@@ -24,12 +24,20 @@
 }
 
 .main-section .round-tab ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   padding: 14px 0 20px;
+  margin: 0 20px;
 }
 
-.main-section .round-tab ul li {
-  display: inline-block;
-  vertical-align: middle;
+.main-section .round-tab ul li:last-child {
+  margin-right: 60px;
 }
 
 .main-section .round-tab ul li.item {

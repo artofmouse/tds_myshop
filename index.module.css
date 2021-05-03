@@ -1,0 +1,67 @@
+.wrap-device-list {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+}
+
+.wrap-device-list hr {
+  display: block;
+  height: 2px;
+  margin: 20px 0;
+  border-radius: 1px;
+  border: none;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+          box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+}
+
+.wrap-device-list button {
+  padding: 0;
+  letter-spacing: -0.4px;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.wrap-device-list .blind {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  color: transparent;
+}
+
+.wrap-device-list hr {
+  width: calc(100% - 40px);
+  height: 2px;
+  margin: 0px auto 30px auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 1px;
+  -webkit-box-shadow: inset 1px 1px 1px 0 rgba(186, 186, 189, 0.5);
+          box-shadow: inset 1px 1px 1px 0 rgba(186, 186, 189, 0.5);
+  background-color: #efeff1;
+}
+
+.wrap-device-list .top-filter {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 1s ease;
+  transition: height 1s ease;
+  overflow: hidden;
+}
+
+.wrap-device-list .top-filter.active {
+  width: 100%;
+  height: 176px;
+  -webkit-transition: height 1s ease;
+  transition: height 1s ease;
+  overflow: hidden;
+}
+
+.wrap-device-list .recently-viewed-device-area {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.module.css.map */

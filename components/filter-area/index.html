@@ -9,36 +9,22 @@
     <link rel="stylesheet" href="../../common/js/lib/swiper/swiper.css">
     <link rel="stylesheet" href="index.module.css">
     <script src="../../common/js/lib/jquery-1.12.4.js"></script>
-    <script src="../../common/js/lib/swiper/swiper.min.js"></script>
 </head>
 
-<body style="background-color: #f6f8fa;">
+<body>
 
     <div class="main-section">
-        <nav class="filter-result">
-            <div class="filter-reset">
-                <button type="button" aria-label="초기화">초기화</button>
-            </div>
-            <div class="swiper-wrap">
-                <div class="swiper-container">
-                    <ul class="swiper-wrapper">
-                        <li class="item swiper-slide"><button type="button" aria-label="삼성전자">삼성전자</button></li>
-                        <li class="item swiper-slide"><button type="button" aria-label="128G">128G</button></li>
-                    </ul>
+        <div class="filter-area">
+            <div class="filter-btn">
+                <div class="filter-btn-left"></div>
+                <div class="filter-btn-center">
+                    <span>필터</span>
                 </div>
+                <div class="filter-btn-right"></div>
             </div>
-        </nav>
+        </div>
     </div>
-
-    <script>
-        // swiper slider
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 'auto',
-            spaceBetween: 10,
-            loop: false,
-        });
-    </script>
-
+  
 </body>
 
 </html>

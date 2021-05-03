@@ -1,0 +1,309 @@
+.main-section {
+  position: relative;
+  letter-spacing: -0.4px;
+  color: #222;
+}
+
+.main-section hr {
+  display: block;
+  height: 2px;
+  margin: 20px 0;
+  border-radius: 1px;
+  border: none;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+          box-shadow: inset 1px 1px 1px rgba(186, 186, 189, 0.5);
+}
+
+.main-section button {
+  padding: 0;
+  letter-spacing: -0.4px;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-section .blind {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  color: transparent;
+}
+
+.main-section .section-tit {
+  position: relative;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 13px;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+.main-section .recommended-mobile-device .item-inner {
+  position: relative;
+  padding: 0 20px 20px 20px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px 20px 0;
+  text-align: left;
+  text-decoration: none;
+  font-family: inherit;
+  border: 0;
+  border-radius: 12px;
+  -webkit-box-shadow: -4px -6px 10px #fff, 4px 7px 10px #dde0e2, -2px -2px 2px #fff;
+          box-shadow: -4px -6px 10px #fff, 4px 7px 10px #dde0e2, -2px -2px 2px #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .txt-notice {
+  line-height: 1.25;
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .purchase-type {
+  padding-left: 12px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .purchase-type ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .purchase-type .type-box {
+  width: 31px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 4px;
+  padding: 4px 0px;
+  text-align: center;
+  font-family: NotoSansCJKkr;
+  font-size: 9px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: -0.28px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .purchase-type .type-box.pre-order {
+  border: solid 1px #fa8856;
+  color: #fa8856;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .purchase-type .type-box.immediately-reward {
+  border: solid 1px #897fd7;
+  color: #897fd7;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .purchase-type .type-box.skt-private {
+  border: solid 1px #5bc09f;
+  color: #5bc09f;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .thumb {
+  width: 120px;
+  height: 120px;
+  line-height: 0;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .thumb img {
+  max-width: 100%;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 23px 0 10px 23px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color + .device-color {
+  margin-left: 6px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .volumn-size {
+  height: 18px;
+  margin: 2px 0 0 22px;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  line-height: 1.38;
+  letter-spacing: -0.4px;
+  color: #767778;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt {
+  width: calc(100% - 110px);
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-name {
+  line-height: 1.43;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc {
+  font-size: 12px;
+  color: #222222;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc dl dt {
+  line-height: 1.39;
+  margin-bottom: 2px;
+  color: #767778;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc dl dd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.438;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc dl dd > * {
+  display: inline-block;
+  line-height: 23px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc dl dd span {
+  font-size: 13px;
+  margin-right: 4px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc dl dd strong {
+  font-size: 16px;
+  color: #f76252;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee {
+  height: 14px;
+  margin: 6px 4px 6px 1px;
+  font-family: SpoqaHanSansNeo;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.37px;
+  color: #767778;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee span {
+  margin: 0 0 0 3px;
+  font-size: 10px;
+  line-height: 1.8;
+  letter-spacing: -0.31px;
+  text-decoration: line-through;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc .fee-standard {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #222222;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .final-notice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 20px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .final-notice > * {
+  vertical-align: middle;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .final-notice i.icon-round-rectangle {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 6px;
+  padding: 0 8px 0 8px;
+  font-size: 11px;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .final-notice i.icon-round-rectangle.bgcolor1-re {
+  color: #f76252;
+  border: 1px solid #f76252;
+  background-color: transparent;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .final-notice span {
+  font-size: 13px;
+}
+
+.main-section .recommended-mobile-device .item-inner .cnt-card .btn-area {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 320px) {
+  .main-section .recommended-mobile-device .item-inner .cnt-card {
+    padding: 12px 10px 20px 0;
+  }
+  .main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .thumb {
+    width: 100px;
+    height: 100px;
+  }
+  .main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 13px 0 10px 13px;
+  }
+  .main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color + .device-color {
+    margin-left: 4px;
+  }
+  .main-section .recommended-mobile-device .item-inner .cnt-card .device-area .device-left .phone-info .volumn-size {
+    margin: 2px 0 0 12px;
+  }
+  .main-section .recommended-mobile-device .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -22,6 +22,7 @@
         background-color: transparent;
         cursor: pointer;
     }
+
     .blind {
         position: absolute !important;
         overflow: hidden;
@@ -31,43 +32,6 @@
         clip: rect(0, 0, 0, 0);
         color: transparent;
     }
-    .btn {
-        display: inline-block;
-        position: relative;
-        box-sizing: border-box;
-
-        &.bg-normal {
-            box-shadow: 0 0 5px #d1d4d6;
-        }
-
-        &.btn-s {
-            height: 32px;
-            padding: 0 16px;
-            font-size: 12px;
-            border-radius: 16px;
-        }
-
-        &.arrow-right-normal {
-            padding: 0 26px 0 16px;
-
-            &::after {
-                content: "";
-                position: absolute;
-                top: calc(50%);
-                left: auto;
-                margin-left: 2px;
-                background-repeat: no-repeat;
-                background-size: 100% auto;
-                transform: translateY(-50%);
-            }
-
-            &.btn-s::after {
-                width: 10px;
-                height: 10px;
-                background-image: url(./images/icon-arrow-right-10px.svg);
-            }
-        }
-    }
 
     .section-tit {
         position: relative;
@@ -76,9 +40,10 @@
         font-size: 13px;
         z-index: 2;
     }
-    .dimmed{
-        width:100%;
-        height:100vh;
+
+    .dimmed {
+        width: 100%;
+        height: 100vh;
         background: rgba(0, 0, 0, 0.2);
         bottom: 0;
         left: 0;
@@ -87,6 +52,7 @@
         top: 0;
         z-index: 999;
     }
+
     .layer-popup {
         z-index: 1000;
         width: calc(100% - 116px);
@@ -101,8 +67,8 @@
 
         & .popup-cont {
             padding: 22px 20px 20px 20px;
-            
-            h1{
+
+            h1 {
                 height: 18px;
                 font-family: SpoqaHanSansNeo;
                 font-size: 14px;
@@ -113,9 +79,11 @@
                 letter-spacing: -0.44px;
                 color: #000000;
             }
+
             & .popup-body {
                 color: #333;
-                margin-top:14px;
+                margin-top: 14px;
+
                 ul {
                     display: flex;
                     flex-direction: column;
@@ -124,15 +92,14 @@
                         display: flex;
                         align-items: center;
                         flex-direction: row;
-                        height:22px;
-                        margin-bottom:14px;
-                        &:last-child{
-                            margin-bottom:0px;
+                        height: 22px;
+                        margin-bottom: 14px;
+
+                        &:last-child {
+                            margin-bottom: 0px;
                         }
 
                         .custom-form {
-                          
-                            
                             width: 18px;
                             height: 22px;
                             line-height: 22px;
@@ -141,7 +108,7 @@
                             background-position: 0 2px;
 
                             &.active {
-                              
+
                                 width: 18px;
                                 height: 22px;
                                 line-height: 22px;
@@ -156,7 +123,7 @@
                             display: flex;
                             align-items: center;
                             height: 22px;
-                            margin-left:5px;
+                            margin-left: 5px;
                             font-family: SpoqaHanSansNeo;
                             font-size: 13px;
                             line-height: 22px;
@@ -181,7 +148,7 @@
                             background: url("./images/component_check_small_off.svg") no-repeat 0 0;
                             background-size: 100% 100%;
                             vertical-align: top;
-                            
+
                         }
 
                         & .custom-form input[type="checkbox"]:checked+.c-type1 {
@@ -235,6 +202,12 @@
                     }
                 }
             }
+        }
+    }
+    @media all and (max-width: 320px) {
+        .layer-popup {
+            z-index: 1000;
+            width: calc(100% - 76px);
         }
     }
 }

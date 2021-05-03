@@ -25,12 +25,18 @@
     }
 
     .rect-tab {
+        
         ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            margin:0 20px;
 
             li {
-                display: inline-block;
-                vertical-align: middle;
-                box-sizing: border-box;
+                &:last-child{
+                    margin-right:40px;
+                }
+                
                 &.item {
                     width: 76px !important;
 

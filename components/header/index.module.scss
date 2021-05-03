@@ -1,33 +1,80 @@
 @charset "UTF-8";
 
-$is--rem: true;
-
-// Import common scss
-@import "~src/shared/components/my-feed/scss/base/mixins";
-@import "~src/shared/components/my-feed/scss/base/function";
-@import "~src/shared/components/my-feed/scss/common";
-
-//module
-.header {
-  color: #000;
-  & .nav-header {
+.main-section {
     position: relative;
+    letter-spacing: -0.4px;
+    color: #222;
 
-    & .go-back-btn {
-      width: 2.625rem;
-      height: 3.75rem;
-      background: url("./images/go-back-img.png") no-repeat left top;
-      background-size: 2.625rem 6.625rem;
-      position: absolute;
-      left: 0;
-      top: 0;
+    button {
+        display: block;
+        width: 100%;
+        padding: 0;
+        letter-spacing: -0.4px;
+        font-family: inherit;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
     }
-    & .tit {
-      color: #000;
-      font-size: 1.1875rem;
-      font-weight: 500;
-      text-align: center;
-      line-height: 60px;
+
+    .section-tit {
+        position: relative;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        font-size: 13px;
+        z-index: 2;
     }
-  }
+
+    .top-header {
+        width: calc(100% - 40px);
+        height: 52px;
+        margin:0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .top-header-left {
+            width:auto;
+            height: 25px;
+            
+
+            img{
+                width:18px;
+                height:16px;
+            }
+            span{
+                margin: 0 0 0 13px;
+                font-family: SpoqaHanSansNeo;
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: -0.53px;
+                color: #000000;
+            }
+        }
+        .top-header-right {
+            display: flex;
+            
+                .ico-cart{
+                    width:19px;
+                    height:20px;
+                    margin-right:17px;
+                    padding-top:2px;
+                    img{
+                        width:100%;
+                        height:auto;
+                    }
+                }
+                .ico-mypage{
+                    width:21px;
+                    height:21px;
+                    img{
+                        width:100%;
+                        height:auto;
+                    }
+                }
+            
+        }
+    }
 }

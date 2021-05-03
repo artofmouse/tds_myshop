@@ -24,75 +24,51 @@
         z-index: 2;
     }
 
-    .filter-result {
+    .filter-area {
         display: flex;
-        align-items: center;
-        height: 53px;
-        .filter-reset {
-            margin-right:20px;
-            button {
-                width: auto;
-                height: 19px;
-                margin: 0 0 1px 6px;
-                font-family: SpoqaHanSansNeo;
-                font-size: 13px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: normal;
-                letter-spacing: -0.37px;
-                color: #222222;
-                display: flex;
-                align-items: center;
-               
-                &:before{
-                    content: "";
-                    width:48px;
-                    height:53px;
-                    background-image: url(./images/btn-reset@2x.png);
-                    background-size: 48px 53px;
-                    background-repeat: no-repeat;
-                    display: inline-block;
-                    margin-right:-7px;
+        position: relative;
+        height: 64px;
+        width: 100%;
+        background-color: #f6f8fa;
+
+        .filter-btn {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            .filter-btn-left {
+                width: calc(50% - 60px);
+                height: 64px;
+                background-image: url(./images/filter-area-left-bg.png);
+                background-repeat: repeat-x;
+            }
+
+            .filter-btn-center {
+                width: 120px;
+                height: 64px;
+                background-image: url(./images/filter-area-btn-bg.png);
+                background-repeat: no-repeat;
+                text-align: center;
+                padding-top: 17px;
+                box-sizing: border-box;
+
+                span {
+                    height: 17px;
+                    font-family: AppleSDGothicNeo;
+                    font-size: 12px;
+                    line-height: 1.42;
+                    letter-spacing: -0.5px;
+                    text-align: center;
+                    color: #222222;
                 }
             }
-        }
-        .swiper-wrap{
-            display: flex;
-            align-items: center;
-            height: 53px;
-            ul {
-                display: flex;
-                li {
-                    
-                    align-items: center;
-                    vertical-align: middle;
-                    box-sizing: border-box;
-                    &.item {
-                        width: auto !important;
 
-                        button {
-                            font-family: AppleSDGothicNeo;
-                            font-size: 12px;
-                            letter-spacing: -0.5px;
-                            color: #767778;
-                            border-bottom: solid 0.5px #767778;
-                            line-height: 10px;
-                        
-                            &:after{
-                                content: "";
-                                width:10px;
-                                height:10px;
-                                background-image: url(./images/btn-del-x@2x.png);
-                                background-size: 10px 10px;
-                                background-position: 0px 1px;
-                                background-repeat: no-repeat;
-                                display: inline-block;
-                                margin-left:4px;
-                            }
-                        }
-                    }
-                }
+            .filter-btn-right {
+                width: calc(50% - 60px);
+                height: 64px;
+                background-image: url(./images/filter-area-right-bg.png);
+                background-repeat: repeat-x;
+
             }
         }
     }

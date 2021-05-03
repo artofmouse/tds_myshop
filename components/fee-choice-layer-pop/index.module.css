@@ -15,6 +15,16 @@
   cursor: pointer;
 }
 
+.main-section .blind {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  color: transparent;
+}
+
 .main-section .section-tit {
   position: relative;
   line-height: 1.5;

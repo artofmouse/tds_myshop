@@ -74,7 +74,8 @@
   background-image: url(./images/icon-arrow-right-10px.svg);
 }
 
-.main-section .mobile-devices-list-tl {
+.main-section .mobile-devices-list-type-title {
+  width: calc(100% - 40px);
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,10 +88,10 @@
           align-items: center;
 }
 
-.main-section .mobile-devices-list-tl .list-total-num {
+.main-section .mobile-devices-list-type-title .list-total-num {
   width: auto;
   height: 19px;
-  margin: 10px 150px 10px 0;
+  margin: 10px 0 10px 0;
   font-family: SpoqaHanSansNeo;
   font-size: 13px;
   font-weight: normal;
@@ -101,7 +102,7 @@
   color: #767778;
 }
 
-.main-section .mobile-devices-list-tl .list-sorting {
+.main-section .mobile-devices-list-type-title .list-sorting {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,15 +112,30 @@
           align-items: center;
 }
 
-.main-section .mobile-devices-list-tl .list-sorting .list-sorting-sel {
-  width: 90px;
+.main-section .mobile-devices-list-type-title .list-sorting .list-sorting-sel {
+  width: auto;
+  min-width: 90px;
   height: 39px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 7px 6px 7px 13px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.main-section .mobile-devices-list-type-title .list-sorting .list-sorting-sel select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-image: url(./images/select-bg.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 24px 24px;
+  vertical-align: middle;
+  width: auto;
+  min-width: 43px;
+  height: 24px;
   -o-object-fit: contain;
      object-fit: contain;
   opacity: 0.74;
@@ -131,9 +147,16 @@
   line-height: normal;
   letter-spacing: -0.3px;
   color: #242424;
+  border: 0;
+  overflow: hidden;
+  padding-right: 24px;
 }
 
-.main-section .mobile-devices-list-tl .list-sorting .list-sorting-btn {
+.main-section .mobile-devices-list-type-title .list-sorting .list-sorting-sel select::-ms-expand {
+  display: none;
+}
+
+.main-section .mobile-devices-list-type-title .list-sorting .list-sorting-btn {
   width: 30px;
   height: 30px;
   margin: 0 0 0 11px;
