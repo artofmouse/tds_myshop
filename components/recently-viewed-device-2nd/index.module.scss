@@ -145,7 +145,7 @@
                         .phone-info {
                             .device-color-area {
                                 display: flex;
-                                margin: 23px 0 10px 23px;
+                                margin: 23px 0 7px 23px;
 
                                 .device-color {
                                     display: inline-block;
@@ -156,6 +156,19 @@
                                     &+.device-color {
                                         margin-left: 6px;
                                     }
+                                }
+                                .device-color-txt{
+                                    width: 82px;
+                                    // height: 18px;
+                                    margin: 0 0 0 4px;
+                                    font-family: SpoqaHanSansNeo;
+                                    font-size: 13px;
+                                    font-weight: normal;
+                                    font-stretch: normal;
+                                    font-style: normal;
+                                    line-height: 1.2;
+                                    letter-spacing: -0.4px;
+                                    color: #767778;
                                 }
                             }
 
@@ -332,7 +345,7 @@
                             .phone-info {
                                 .device-color-area {
                                     display: flex;
-                                    margin: 13px 0 10px 13px;
+                                    margin: 13px 0 7px 13px;
 
                                     .device-color {
                                         display: inline-block;

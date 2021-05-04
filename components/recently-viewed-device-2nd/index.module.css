@@ -155,7 +155,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 23px 0 10px 23px;
+  margin: 23px 0 7px 23px;
 }
 
 .main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color {
@@ -167,6 +167,19 @@
 
 .main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color + .device-color {
   margin-left: 6px;
+}
+
+.main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color-txt {
+  width: 82px;
+  margin: 0 0 0 4px;
+  font-family: SpoqaHanSansNeo;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  color: #767778;
 }
 
 .main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .device-left .phone-info .volumn-size {
@@ -333,7 +346,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 13px 0 10px 13px;
+    margin: 13px 0 7px 13px;
   }
   .main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .device-left .phone-info .device-color-area .device-color {
     display: inline-block;
