@@ -32,6 +32,13 @@
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-section .top-navi-area ul li:last-child {
+  margin-right: 40px;
 }
 
 .main-section .top-navi-area ul li.item {

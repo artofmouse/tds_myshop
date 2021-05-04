@@ -1,0 +1,238 @@
+/* default */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 95%;
+	margin: 30px auto;
+	padding: 30px auto;
+	color: #777;
+	font: .75em/1 "helvetica neue", helvetica, arial, sans-serif;
+	background: #fff;
+}
+footer {
+	display: none;
+}
+footer div {
+	padding: 10px;
+	font-size: 1.1em;
+	background: #f8f8f8;
+}
+footer div li {
+	margin: 5px;
+}
+footer div strong {
+	color: #333;
+}
+h1,
+h2,
+h3 {
+	color: #333;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+h1 {
+	margin-bottom: 20px;
+	padding: 40px 0 20px;
+	border: 4px double #eee;
+	border-width: 4px 0 2px;
+	font: italic 2.3em "droid serif", georgia, times, serif;
+}
+h2 {
+	margin: 10px 0 5px;
+	font-size: 2em;
+}
+h2:before {
+	content: "!";
+}
+h2 span {
+	color: #b90b0b;
+	font-size: .5em;
+	vertical-align: .25em;
+}
+h1 + h2 {
+	margin-top: 30px;
+}
+h3 {
+	margin: 5px 0;
+	font-size: 1.5em;
+}
+section h3:before {
+	content: " : ";
+}
+h2 + div {
+	margin-bottom: 30px;
+}
+div {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px dashed #e0e0e0;
+	background: #fcfcfc;
+}
+div h3:nth-child(n+2) {
+	margin-top: 20px;
+}
+p {
+	margin: 10px;
+}
+li {
+	margin: 10px;
+	list-style: none;
+}
+li:before {
+	content: " # ";
+}
+strong {
+	color: #b90b0b;
+}
+i {
+	color: #5f8b33;
+}
+b {
+	color: #f2ac1a;
+}
+em {
+	color: #205589;
+}
+h1 b,
+h3 i {
+	color: #333;
+}
+a {
+	color: #88bbc8;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+label * {
+	vertical-align: middle;
+	line-height: 1.6;
+}
+label span {
+	margin: 0 10px 0 3px;
+}
+table {
+	margin-bottom: 30px;
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	border-bottom-width: 3px;
+	border-collapse: collapse;
+	font-size: .95em;
+}
+caption {
+	margin-bottom: 10px;
+	color: #999;
+	font-size: .9em;
+	text-align: left;
+}
+tr:nth-child(2n) td {
+	background-color: #f8f8f8;
+}
+th,
+td {
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	line-height: 1.5;
+}
+td a {
+	display: block;
+}
+th {
+	font-weight: normal;
+	text-align: center;
+	background: #eee;
+}
+td {
+	padding: 7px;
+	background: #fcfcfc;
+}
+tbody tr:hover td {
+	text-decoration: none;
+	border-bottom-color: #a0a0a0;
+	background-color: #f3f9ff !important;
+}
+tbody tr:hover td a {
+	color: #205589;
+}
+tbody tr:last-child td {
+	border-bottom:3px double #e0e0e0;
+}
+tfoot {
+	display: none;
+}
+tfoot th {
+	text-align: right;
+}
+tfoot tr:nth-child(1) th {
+	color: #5f8b33;
+	background: #eaf5e1;
+}
+tfoot tr:nth-child(2) th {
+	color: #b90b0b;
+	background: #feeeee;
+}
+tfoot tr:nth-child(3) th {
+	color: #f2ac1a;
+	background-color: #fffbe5;
+}
+::selection {
+	background: #f2ebff;
+}
+.num {
+	width: 3%;
+	text-align: center;
+}
+.file {
+	width: 7%;
+	text-align: center;
+}
+.depth {
+	width: 8%;
+}
+tbody .depth {
+	letter-spacing: 0px;
+}
+.due {
+	width: 8%;
+	text-align: center;
+}
+.path {
+	width: 5%;
+}
+tbody .path {
+	width: 5%;
+	text-align: center;
+}
+.memo {
+	width: auto;
+}
+.task {
+	width: 5%;
+	text-align: center;
+}
+.done {
+	color: #5f8b33;
+	background: #eaf5e1 !important;
+}
+.coding {
+	color: #639;
+	background: #f2ebff !important;
+}
+.qadone {
+	color: #205589;
+	background: #f3f9ff !important;
+}
+.undone {
+	color: #b90b0b;
+	background: #feeeee !important;
+}
+.modify {
+	color: #f2ac1a; 
+	background-color: #fffbe5 !important;
+}
+.trgHeading:hover {
+	background-color: #f2ebff;
+	cursor: pointer;
+}
