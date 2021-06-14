@@ -201,6 +201,7 @@
                             }
 
                             .monthly-fee {
+                                display: flex;
                                 height: 14px;
                                 margin: 6px 4px 6px 1px;
                                 font-family: SpoqaHanSansNeo;
@@ -209,15 +210,24 @@
                                 font-stretch: normal;
                                 font-style: normal;
                                 line-height: 1.5;
-                                letter-spacing: -0.37px;
+                                letter-spacing: -0.5px;
                                 color: #767778;
 
-                                span {
-                                    margin: 0 0 0 3px;
+                                .monthly-tl {
+                                    width: 80px;
+                                }
+
+                                .monthly-num {
+                                    width: 50px;
+                                    margin: 0 3px 0 1px;
+                                }
+
+                                .monthly-num-sm {
+                                    width: 39px;
                                     font-size: 10px;
                                     line-height: 1.8;
                                     letter-spacing: -0.31px;
-                                    text-decoration: line-through
+                                    text-decoration: line-through;
                                 }
                             }
 

@@ -237,6 +237,9 @@
 }
 
 .main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 14px;
   margin: 6px 4px 6px 1px;
   font-family: SpoqaHanSansNeo;
@@ -245,12 +248,21 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: -0.37px;
+  letter-spacing: -0.5px;
   color: #767778;
 }
 
-.main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee span {
-  margin: 0 0 0 3px;
+.main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee .monthly-tl {
+  width: 80px;
+}
+
+.main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee .monthly-num {
+  width: 50px;
+  margin: 0 3px 0 1px;
+}
+
+.main-section .recently-viewed-device-2nd .item-inner .cnt-card .device-area .service-cnt .service-desc .monthly-fee .monthly-num-sm {
+  width: 39px;
   font-size: 10px;
   line-height: 1.8;
   letter-spacing: -0.31px;
